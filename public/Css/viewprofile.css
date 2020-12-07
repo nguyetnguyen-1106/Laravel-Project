@@ -1,0 +1,16 @@
+.form{
+    margin: auto;
+    width: 400px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.form input{
+    height: 35px;
+    font-size: 17px;
+    margin-top: 10px;
+
+}
+.title-viewprofile{
+    font-size: 30px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Start mainContent__rightContent */
+
+.rightContent__roomDetail h1 {
+    font-size: 1.7rem;
+    margin: 2rem 0;
+}
+
+
+/* Start rightContent__roomDetail--slider */
+
+.slides {
+    position: relative;
+    margin-left: 6rem;
+}
+
+.slides img {
+    width: 60rem;
+    height: 40rem;
+}
+
+.mySlide {
+    display: none;
+}
+
+.next,
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -2rem, 2rem;
+    padding: 1rem, 6rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    transition: 0.6s ease;
+    border-radius: 0 0.3rem 0.3rem 0;
+    user-select: none;
+}
+
+.next {
+    right: -3rem;
+    border-radius: 0.3rem 0 0 0.3rem;
+}
+
+.prev {
+    left: 0;
+    border-radius: 0.3rem 0 0 0.3rem;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* End rightContent__roomDetail--slider */
+
+
+/*  Start rightContent__roomDetail--detailContent*/
+
+.rightContent__roomDetail--detailContent {
+    margin: 2rem;
+}
+
+.inforRoom {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.chinhSach {
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.tienNghi {
+    display: flex;
+}
+
+.tienNghi .col1 {
+    padding: 3rem;
+}
+
+
+/*  End rightContent__roomDetail--detailContent*/
+
+.btnDatPhong {
+    width: 15rem;
+    height: 4rem;
+    background-color: #1e5033;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    float: right;
+}
+
+
+/* End mainContent__rightContent */

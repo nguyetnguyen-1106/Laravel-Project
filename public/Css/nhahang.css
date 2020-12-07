@@ -1,0 +1,36 @@
+/* Start mainContent */
+
+
+/* Start mainContent__rightContent */
+
+
+/* Start restaurents */
+
+.restaurents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+.restaurents .restaurent {
+    margin: 1rem 1rem;
+}
+
+.restaurents .restaurent h4 {
+    padding: 0.5rem;
+}
+
+.restaurents .restaurent img {
+    width: 26rem;
+    height: 18rem;
+}
+
+
+/* End restaurents */
+
+
+/* End mainContent__rightContent */
+
+
+/* End mainContent */
