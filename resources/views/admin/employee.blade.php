@@ -23,7 +23,7 @@
                     <th scope="col">Giới tính</th>
                     <th scope="col">Địa chỉ</th>
                     <th scope="col">Số điện thoại</th>
-                    <th>Tùy chọn</th>
+                    <!-- <th>Tùy chọn</th> -->
                 </tr>
             </thead>
             <tbody>
