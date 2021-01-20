@@ -22,7 +22,7 @@
                     <th scope="col">Họ và tên</th>
                     <th scope="col">Giới tính</th> -->
                     <th scope="col">Địa chỉ</th>
-                    <th scope="col">Số điện thoại 123</th>
+                    <th scope="col">Số điện thoại 12333</th>
                     <th>Tùy chọn</th>
                 </tr>
             </thead>
