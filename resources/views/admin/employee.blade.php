@@ -18,9 +18,9 @@
         <table class="table" style="text-align: center">
             <thead class="thead-dark">
                 <tr>
-                    <th scope="col">No</th>
+                    <!-- <th scope="col">No</th>
                     <th scope="col">Họ và tên</th>
-                    <th scope="col">Giới tính</th>
+                    <th scope="col">Giới tính</th> -->
                     <th scope="col">Địa chỉ</th>
                     <th scope="col">Số điện thoại</th>
                     <th>Tùy chọn</th>
